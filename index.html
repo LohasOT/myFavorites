@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
 
-  <title>The Beatles Tribute Page</title>
+  <title>The Beatles</title>
   <link rel="stylesheet" type="text/css" href="./style.css" />
 
   <style>
@@ -48,6 +48,11 @@
       color: limegreen;
       font-size: 40;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+    }
+
+    .songname {
+      text-align: center;
     }
 
     img {
@@ -56,21 +61,48 @@
       margin-right: auto;
       border: 5px solid lime;
     }
+
+    .center {
+      margin-left: auto;
+      margin-right:auto;
+    }
+
+    .member {
+      text-align: center;
+      color: cyan;
+    }
+
+    li {
+      text-align: center;
+    }
+
+    .video {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border: 10px solid crimson;
+    }
+
+    ol {
+      border: 5px darkgoldenrod;
+      margin-right: auto;
+      margin-left: auto;
+
+    }
   </style>
 
 </head>
 
 <body>
-  <h1 class="title">The Beatles Tribute Page</h1>
+  <h1 class="title">The Beatles</h1>
 
   <img
     src="https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cfl_progressive%2Ch_400%2Cq_auto:good%2Cw_620/MTY2MTcyNTE2MzQyMDQ4Mzk4/the-beatles-rehearse-for-that-nights-royal-variety-performance-at-the-prince-of-wales-theatre-4th-november-1963-the-queen-mother-will-attend-photo-by-central-press_hulton-archive_getty-images.jpg"
     alt="Faces of the members"
-    class="center"
 
     />
 
-  <h1>Bio</h1>
+  <h1 class="member">Bio</h1>
 
   <p>
     The Beatles, formerly called the Quarrymen or the Silver Beatles, byname Fab Four,
@@ -110,7 +142,7 @@
     <a href="https://www.youtube.com/user/thebeatles">Thebeatlesyoutube.com</a>
   </p>
 
-  <h2>The Members</h2>
+  <h2 class="member">The Members</h2>
 
   <ol>
     <li class="name1">John Lennon</li>
@@ -123,7 +155,7 @@
 
   </ol>
 
-  <table>
+  <table class="center">
     <tr>
       <th>
         My Top 5 Favorite Songs
@@ -179,8 +211,13 @@
 
   <p class="songname">Yesterday</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2UZ6k3bcJqA" title="YouTube video player"
+
+
+<iframe
+  class="video" width="560" height="315" src="https://www.youtube.com/embed/2UZ6k3bcJqA" title="YouTube video player"
   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
+
+
 
 </body>
