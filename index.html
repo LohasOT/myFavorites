@@ -6,6 +6,7 @@
 
   <title>The Beatles Tribute Page</title>
   <link rel="stylesheet" type="text/css" href="./style.css" />
+
   <style>
     table,
     tr,
@@ -13,17 +14,61 @@
     td {
       border: 2px solid black;
     }
+
+    p{
+      color: darkgoldenrod;
+      font-size: 30px;
+    }
+
+    .title {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 50px;
+      background-color: lightpink;
+      color: lightblue;
+    }
+
+    .name1 {
+      color: green;
+    }
+
+    .name2 {
+      color: gold;
+    }
+
+    .name3 {
+      color: greenyellow;
+    }
+
+    .name4 {
+      color: khaki;
+    }
+
+    .favo {
+      color: limegreen;
+      font-size: 40;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 5px solid lime;
+    }
   </style>
 
-  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 
 <body>
-  <h1>The Beatles Tribute Page</h1>
+  <h1 class="title">The Beatles Tribute Page</h1>
 
   <img
     src="https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cfl_progressive%2Ch_400%2Cq_auto:good%2Cw_620/MTY2MTcyNTE2MzQyMDQ4Mzk4/the-beatles-rehearse-for-that-nights-royal-variety-performance-at-the-prince-of-wales-theatre-4th-november-1963-the-queen-mother-will-attend-photo-by-central-press_hulton-archive_getty-images.jpg"
-    alt="Faces of the members" />
+    alt="Faces of the members"
+    class="center"
+
+    />
 
   <h1>Bio</h1>
 
@@ -130,7 +175,7 @@
     </tr>
   </table>
 
-  <h3>Favorite Song</h3>
+  <h3 class="favo">Favorite Song</h3>
 
   <p class="songname">Yesterday</p>
 
